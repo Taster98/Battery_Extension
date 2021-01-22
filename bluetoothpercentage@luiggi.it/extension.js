@@ -4,8 +4,8 @@ const Mainloop = imports.mainloop;
 const GLib = imports.gi.GLib;
 
 let panelButton, panelButtonText, percentage, icon;
-let MAC_ADDR = "bluetooth_battery [HEADPHONES_MAC_ADDRESS]"; //INSERT YOUR MAC ADDRESS HERE
 function setButtonText(){
+    let MAC_ADDR = "bluetooth_battery [HEADPHONES_MAC_ADDRESS]"; //INSERT YOUR MAC ADDRESS HERE
     var [ok, out, err, exit] = GLib.spawn_command_line_sync(MAC_ADDR);
     panelButtonText.set_text((out.toString()).substring(38,42));
     return true;
