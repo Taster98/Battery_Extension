@@ -1,0 +1,9 @@
+.labelBluetooth{
+    margin-top: 4px;
+}
+.icon{
+    background-image: url("logo.png");
+    background-size: 50px;
+    width: 27px;
+    margin-left:15px;
+}

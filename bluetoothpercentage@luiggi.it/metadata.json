@@ -1,0 +1,10 @@
+{
+    "description" : "Simple extension that shows bluetooth headphones Mi True Wireless Basic 2 Headphones battery percentage.",
+    "name": "BluetoothPercentage",
+    "shell-version" : [
+        "3.36.4"
+    ],
+    "url" : "",
+    "uuid" : "bluetoothpercentage@luiggi.it",
+    "version" : 1
+}
